@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Common Shared Styles */
+
+.section-title {
+    color: hsl(0, 2%, 8%);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.btn-white {
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: 0;
+    color: #F15B22;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.white-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Header Section Styles */
+.header-content {
+    /* background-image: url('./images/banner/banner1.png'); */
+    /* background-size: contain; */
+    background-color: gray;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* background-size: auto; */
+    /* margin: 215px 230px 165px 0; */
+    display: flex;
+}
+
+.header-column {
+    width: 526px;
+}
+
+.header-column-right {
+    justify-content: right;
+    text-align: right;
+    width: 526px;
+    margin: 215px 230px 165px 0;
+    /* margin */
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+}
+
+
+/* My Failure Section */
+.failure-container {
+    display: flex;
+    align-items: center;
+    margin: 80px 150px;
+}
+
+.failure-container img {
+    width: 100%;
+}
+
+.failure-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.failure-container ul li {
+    line-height: 30px;
+}
+
+.failure-container ul li:before {
+    content: '✓';
+    color: #16D887;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 40px;
+}
+
+
+/* My Plans Styles */
+.goal-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 20px 150px;
+
+}
+
+.goal {
+    text-align: center;
+}
+
+.goal img {
+    margin-bottom: 15px;
+}
+
+.goal h3 {
+    margin-bottom: 15px;
+}
+
+
+/* positive-mindset-container Style */
+.positive-mindset-container {
+    background-image: url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    /* width: 60%; */
+    /* background-size: contain; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+
+.positive-mindset-content {
+    margin: 60px 80px;
+}
+
+.shadow-bg {}
+
+
+
+/* Footer Section Style */
+.footer-container {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    padding: 130px 100px;
+}
+
+.footer-container p {
+    font-size: 16px;
+
+}
+
+.social-link {
+    padding-top: 30px;
+}
+
+.social-link a {
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.subscribe-form {
+    text-align: left;
+}
+
+.subscribe-form h2,
+.subscribe-form input {
+    margin-bottom: 30px;
+}
+
+.subscribe-form input {
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    width: 70%;
+}
+
+.subscribe-form input::placeholder {
+    color: #fff;
+}
